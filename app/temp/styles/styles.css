@@ -1,0 +1,18 @@
+body{
+	
+	padding:15px;
+	margin: 10px;
+	-webkit-columns: 300px 2;
+	        columns: 300px 2;
+	color: #2f5572;
+	background: #ddd;
+}
+
+.box{
+	background:#ddd;
+}
+
+.box a{
+		display: block;
+		padding: 10px;
+	}

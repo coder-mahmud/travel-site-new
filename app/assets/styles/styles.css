@@ -1,20 +1,9 @@
-$mainBlue: #2f5572;
-$bgcolorMain: #ddd;
+@import "normalize.css";
+
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
 
 
-body{
-	
-	padding:15px;
-	margin: 10px;
-	columns: 300px 2;
-	color: $mainBlue;
-	background: $bgcolorMain;
-}
 
-.box{
-	background:$bgcolorMain;
-	a{
-		display: block;
-		padding: 10px;
-	}
-}

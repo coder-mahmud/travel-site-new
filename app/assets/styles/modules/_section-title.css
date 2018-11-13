@@ -11,9 +11,18 @@
 		font-weight: 500;
 	}
 
+	&--blue{
+		color:$mainBlue;
+	}
 
 	&__icon{
 		margin-right: .5rem;
 	}
 
+
+	@mixin atSmall{
+		position:relative;
+		top:8px;
+
+	}
 }
